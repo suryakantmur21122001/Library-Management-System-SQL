@@ -43,11 +43,17 @@ The schema is designed to maintain referential integrity using **Primary Keys** 
 ### 🗃️ Example ER Diagram (Conceptually)
 
 Author ───< Books >─── Publisher
+
     │
+    
     ▼
+    
 Book_Copies >─── Library_Branch
+
     │
+    
     ▼
+    
 Book_Loans >─── Borrower
 
 
