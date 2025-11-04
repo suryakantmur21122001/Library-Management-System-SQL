@@ -31,14 +31,17 @@ The project includes **7 CSV files** and **1 SQL script file**, all stored in th
 ---
 
 ## 🧩 Database Schema
+
 The schema is designed to maintain referential integrity using **Primary Keys** and **Foreign Keys**.
 
 ### 🔗 Relationships:
+
 - A **Book** can have multiple copies across different **Library Branches**  
 - A **Borrower** can borrow multiple books  
 - Each **Book** is linked to an **Author** and a **Publisher**
 
 ### 🗃️ Example ER Diagram (Conceptually)
+
 Author ───< Books >─── Publisher
     │
     ▼
@@ -91,42 +94,48 @@ GROUP BY Bo.BorrowerName
 ORDER BY TotalLoans DESC;
 ```
 
-🧠 Key Learnings
+## 🧠 Key Learnings
 
 ✅ Database design and normalization
+
 ✅ Writing optimized SQL queries
+
 ✅ Understanding entity relationships
+
 ✅ Extracting and reporting insights using SQL
 
-🧰 Tools & Technologies
-Tool	Purpose
-🗄️ MySQL / PostgreSQL / SQL Server	Database creation & query execution
-📊 CSV Files	Dataset input
-💻 SQL Workbench 
+## 🧰 Tools & Technologies
 
-🚀 How to Run the Project
+| Tool / Technology                   | Purpose                             |
+| ----------------------------------- | ----------------------------------- |
+| 🗄️ MySQL / PostgreSQL / SQL Server | Database creation & query execution |
+| 📂 CSV Files                        | Dataset input                       |
+| 💻 SQL Workbench                    | SQL script execution                |
 
-Download all CSV files and the SQL script.
 
-Open your SQL environment (MySQL Workbench, DBeaver, etc.).
+## 🚀 How to Run the Project
 
-Execute the SQL file to create the database and tables.
+1. Download all CSV files and the SQL script.
 
-Import CSVs into respective tables.
+2. Open your SQL environment (MySQL Workbench, DBeaver, etc.).
 
-Run the provided queries to explore insights.
+3. Execute the SQL file to create the database and tables.
 
-📈 Sample Insights
+4. Import CSVs into respective tables.
 
-Most borrowed books by category
+5. Run the provided queries to explore insights.
 
-Top performing library branches
+## 📈 Sample Insights
 
-Borrowers with the highest number of issued books
+- Most borrowed books by category
 
-Publisher-wise distribution of books
+- Top performing library branches
 
-👨‍💻 Author
+- Borrowers with the highest number of issued books
+
+- Publisher-wise distribution of books
+
+## 👨‍💻 Author
 
 Suryakant Murhekar
 📍 SQL Developer | Data Analyst | Data Science Enthusiast
